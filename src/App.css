@@ -1,0 +1,15 @@
+.AppBody {
+  max-width: 400px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-top: 20px;
+  font-family: monospace;
+}
+
+h1 {
+  display: block;
+  margin: 0;
+  text-align: center;
+}
+
+

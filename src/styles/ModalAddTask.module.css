@@ -1,0 +1,84 @@
+.ModalBackFill {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.514);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+}
+
+.Unvisible {
+    display: none;
+}
+
+.ModalForm {
+    background-color: white;
+    border-radius: 10px;
+    width: 420px;
+    height: 300px;
+    min-width: 300px;
+    min-height: 200px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.628);
+    padding: 25px 35px;
+}
+
+.ModalTitleLabel {
+    margin: 0;
+    text-align: center;
+}
+
+.CreateTaskBody {
+    margin: 0;
+    margin-top: 20px;
+}
+
+.ModalInputDescription {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.ModalFormInput {
+    width: 96%;
+    height: 30px;
+    box-sizing: border-box;
+    border: 3px solid black;
+    font-family: monospace;
+    font-weight: 550;
+    padding-left: 8px;
+}
+
+.ModalButtonAdd {
+    box-sizing: border-box;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 2px;
+    width: 80px;
+    height: 30px;
+    font-family: monospace;
+}
+
+.ModalButtonAdd:hover {
+    background-color: rgb(230, 230, 230);
+}
+
+.ModalButtonAdd:active {
+    background-color: rgb(217, 217, 217);
+}
+
+
+.ModalFooter {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family: monospace;
+    font-weight: 600;
+    justify-content: space-between;
+}
+
+.ModalTitleWarning {
+    color: crimson;
+}
